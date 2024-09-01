@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+#board {
+    margin-top: -5px;
+    background-image: url("images/pxfuel.jpg");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.col-btn {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.btn_style {
+    margin-bottom: 30px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+}

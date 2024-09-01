@@ -1,0 +1,68 @@
+.grid{
+    width:560px !important;
+    height: 560px!important;
+    border:solid black!important;
+    display: flex !important;
+    flex-wrap: wrap!important;
+}
+.grid div{
+    width: 20px;
+    height:20px ;
+     
+
+}
+.pac-dot img {
+   
+   height: 15px;
+   width: 15px;
+} 
+
+.wall{
+   background-color: rgb(172, 54, 38); 
+   border: 1px solid rgb(173, 173, 128);
+   box-sizing: border-box;
+}
+
+.blinky img
+{
+   
+    height: 20px;
+    width: 20px;
+}
+.pinky img
+{
+ 
+   
+    height: 20px;
+    width: 20px;
+}
+.inky img
+{
+   
+    height: 20px;
+    width: 20px;
+}
+.clyde img
+{
+   
+    height: 20px;
+    width: 20px;
+}
+.pac-man img {
+        height: 20px;
+        width: 20px;
+}
+.pac-dot img {
+    position: absolute;
+    z-index: 1; 
+}
+
+.ghost img {
+    position: absolute;
+    z-index: 2; 
+}
+.score{
+    color: white;
+}
+
+
